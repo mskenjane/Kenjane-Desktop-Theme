@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard version="1">
+    <commands>
+        <key command="Undo" shortcut="Ctrl+Z" removed="true"/>
+        <key command="Undo" shortcut="Ctrl+,"/>
+        <key command="Redo" shortcut="Ctrl+Y" removed="true"/>
+        <key command="Redo" shortcut="Ctrl+."/>
+        <key command="NewLayer" shortcut="Shift+N" removed="true"/>
+        <key command="NewLayer" shortcut="Shift+?" removed="true"/>
+        <key command="NewLayer" shortcut="Ctrl+/"/>
+        <key command="NewLayer" shortcut="Alt+Shift+N" removed="true">
+            <param name="group" value="true"/>
+        </key>
+        <key command="NewLayer" shortcut="Ctrl+Shift+/">
+            <param name="group" value="true"/>
+        </key>
+        <key command="NewFrame" shortcut="Alt+N" removed="true"/>
+        <key command="NewFrame" shortcut="Ctrl+/" removed="true"/>
+        <key command="NewFrame" shortcut="Shift+?"/>
+        <key command="NewFrame" shortcut="Alt+B" removed="true">
+            <param name="content" value="empty"/>
+        </key>
+        <key command="NewFrame" shortcut="PgDn">
+            <param name="content" value="empty"/>
+        </key>
+        <key command="ChangeColor" shortcut="[" removed="true">
+            <param name="change" value="decrement-index"/>
+            <param name="target" value="foreground"/>
+        </key>
+        <key command="ChangeColor" shortcut="]" removed="true">
+            <param name="change" value="increment-index"/>
+            <param name="target" value="foreground"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Space+R" removed="true">
+            <param name="change" value="rotate-90cw"/>
+        </key>
+        <key command="ChangeBrush" shortcut="Ctrl+[" removed="true">
+            <param name="change" value="rotate-90cw"/>
+        </key>
+        <key command="Flip" shortcut="M">
+            <param name="orientation" value="horizontal"/>
+            <param name="target" value="canvas"/>
+        </key>
+        <key command="FlattenLayers" shortcut="M" removed="true">
+            <param name="visibleOnly" value="true"/>
+        </key>
+        <key command="MergeDownLayer" shortcut="Space+E"/>
+        <key command="Rotate" shortcut="Ctrl+[" removed="true">
+            <param name="angle" value="90"/>
+            <param name="target" value="canvas"/>
+        </key>
+        <key command="Rotate" shortcut="Ctrl+]">
+            <param name="angle" value="90"/>
+            <param name="target" value="canvas"/>
+        </key>
+        <key command="Rotate" shortcut="Ctrl+]" removed="true">
+            <param name="angle" value="-90"/>
+            <param name="target" value="canvas"/>
+        </key>
+        <key command="Rotate" shortcut="Ctrl+[">
+            <param name="angle" value="-90"/>
+            <param name="target" value="canvas"/>
+        </key>
+    </commands>
+    <tools>
+        <key tool="rectangular_marquee" shortcut="M" removed="true"/>
+        <key tool="rectangular_marquee" shortcut="Win" removed="true"/>
+        <key tool="rectangular_marquee" shortcut="Shift+Win" removed="true"/>
+        <key tool="rectangular_marquee" shortcut="Shift" removed="true"/>
+        <key tool="magic_wand" shortcut="W" removed="true"/>
+        <key tool="magic_wand" shortcut=";"/>
+        <key tool="pencil" shortcut="B" removed="true"/>
+        <key tool="pencil" shortcut="["/>
+        <key tool="eraser" shortcut="E" removed="true"/>
+        <key tool="eraser" shortcut="]"/>
+        <key tool="curve" shortcut="Shift+L"/>
+    </tools>
+    <quicktools>
+        <key tool="eyedropper" shortcut="Alt" removed="true"/>
+        <key tool="eyedropper" shortcut="Ctrl+Alt" removed="true"/>
+        <key tool="eyedropper" shortcut="Ctrl"/>
+        <key tool="move" shortcut="Ctrl" removed="true"/>
+        <key tool="move" shortcut="Alt"/>
+        <key tool="curve" shortcut="Shift+L" removed="true"/>
+        <key tool="rectangular_marquee" shortcut="Shift"/>
+    </quicktools>
+    <actions/>
+    <wheel/>
+    <drag>
+        <key action="BrushSize" vector="4,0" shortcut="Ctrl+Alt" removed="true"/>
+    </drag>
+</keyboard>
